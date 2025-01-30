@@ -1,42 +1,55 @@
-<html>
-    <head>
-        <title>Вася А3</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-     <body>
-         <header>
-           <img src="https://cdn.textstudio.com/output/studio/template/preview/stamped/w/n/d/r/irdrdnw.webp">
-        </header>
-        <div class="ert">
-            <img class="est" src="https://android-obzor.com/wp-content/uploads/2022/04/73-5-300x300.jpg">
-             <p class="art">Вася А3</p>
-        </div>
-        <main>
-           <div class="text">
-             <nav>
-                <a href="" class="lol">Главная</a>
-                <a href=""  class="lol">Видео</a>
-                <a href="" class="lol"> Shorts</a>
-                <a href=""  class="lol">Недавние видео</a>
-                <a href=""  class="lol">Популярные видео</a>
-             </nav>
-             <section>
-                <article>
-                <img class="hallo" src="https://i.ytimg.com/vi/ikaeMKP1eDA/maxresdefault.jpg">
-                <p>BaBy in Yellow</p>
-                 </article>
-                 <article>
-                <img class="hallo" src="https://i.ytimg.com/vi/URB5XWCthmQ/maxresdefault.jpg">
-                <p>BREAK IN STORY</p>
-                 </article>
-                 <article>
-                <img class="hallo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpt7OcdPzvEFHX6k73kRDPS0nr5FSmz8_lnQ&s">
-                <p>DOORS 2</p>
-                 </article>
-             </section>
-           </div>
-        </main>
-       
-    </body>
-</html>
-  
+header{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin: 0;
+}
+header img{
+    width: 100%;
+    height:100px;
+    margin: 0;
+}
+.est{
+    width: 80px;
+    height: 80px;
+    margin-top: 32px;
+    border-radius: 80px;
+}
+.ert{
+    padding-top: 0;
+    margin-top: 0;
+    display: flex;
+}
+.art{
+    font-size: 50px;
+    margin-left: 20px;
+    
+}
+.hallo{
+    width: 250px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article{
+    text-align: center;
+}
