@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Вася А3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+     <body>
+         <header>
+           <img src="https://cdn.textstudio.com/output/studio/template/preview/stamped/w/n/d/r/irdrdnw.webp">
+        </header>
+        <div class="ert">
+            <img class="est" src="https://android-obzor.com/wp-content/uploads/2022/04/73-5-300x300.jpg">
+             <p class="art">Вася А3</p>
+        </div>
+        <main>
+           <div class="text">
+             <nav>
+                <a href="" class="lol">Главная</a>
+                <a href=""  class="lol">Видео</a>
+                <a href="" class="lol"> Shorts</a>
+                <a href=""  class="lol">Недавние видео</a>
+                <a href=""  class="lol">Популярные видео</a>
+             </nav>
+             <section>
+                <article>
+                <img class="hallo" src="https://i.ytimg.com/vi/ikaeMKP1eDA/maxresdefault.jpg">
+                <p>BaBy in Yellow</p>
+                 </article>
+                 <article>
+                <img class="hallo" src="https://i.ytimg.com/vi/URB5XWCthmQ/maxresdefault.jpg">
+                <p>BREAK IN STORY</p>
+                 </article>
+                 <article>
+                <img class="hallo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpt7OcdPzvEFHX6k73kRDPS0nr5FSmz8_lnQ&s">
+                <p>DOORS 2</p>
+                 </article>
+             </section>
+           </div>
+        </main>
+       
+    </body>
+</html>
+  
